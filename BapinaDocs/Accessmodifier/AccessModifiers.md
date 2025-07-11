@@ -1,9 +1,11 @@
 ## AccessModifiers
--it is use to accessibility of a class.
--it is use to implement the encapsulation.
--AccessModifiers are 5 types.
+- It is use for the accessibility of a class, method and properties etc.
+- It is use to implement the encapsulation.
+- AccessModifiers are 7 types.
 
-1-Public:--The code is accessible for all classes.whether it's in the same assembly or a different one.
+### Public:
+
+- The code is accessible for all classes.whether it's in the same assembly or a different one.
 
 ### example of public
 
@@ -21,18 +23,22 @@ public class calculator
       Console.WriteLine(result);
     }
 }
+```
 
-2-Private--Accessible only within the class.we can not access outside the class.
+### Private
+
+- Accessible only within the class.we can not access outside the class.
             
+```C#
 
-  class car
+ class car
 {
-    private string carname;  //private 
+    private string _carName;  //private 
     public int model;
     public string Carname    //convert private to public to access out side the class
     {
-        get{return carname;}
-        set{carname=value;}
+        get{return _carName;}
+        set{_carName=value;}
     }
 }
 public class cars
@@ -46,7 +52,7 @@ public class cars
        Console.WriteLine(c.model);
     }
 }
-
+```
 3-protected--Accessible from within the same class where it's declared AND from derived classes (classes that inherit from it).
     
 
