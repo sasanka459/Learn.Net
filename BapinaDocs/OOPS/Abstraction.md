@@ -1,15 +1,15 @@
 ## Abstraction
--it means the process of hiding implementation details and exposing only the essential features of an object or functionality.
--it reduce the complexity of viewing the things,Avoide code duplication and increase reusiblity.
+- It means the process of hiding implementation details and exposing only the essential features of an object or functionality.
+- It reduce the complexity of viewing the things,Avoide code duplication and increase reusiblity.
 
 ## Abstract Class
--when we use abstract class we using abstract keyword.
--You are not allowed to create an object in the abstract calss.
--When a non-abstract (concrete) class inherits from an abstract class, it must implement all inherited abstract members.The implementation of an abstract member in a derived class is done using the override keyword.
--An abstract class can contain abstract member like abstract methods, properties, indexers, or events.
- These members are declared using the abstract keyword and do not have an implementation (a method body) in the abstract class.
+- When we create abstract class we using abstract keyword.
+- You are not allowed to create an object in the abstract calss.
+- When a non-abstract (concrete) class inherits from an abstract class, it must implement all inherited abstract members.The implementation of an abstract member in a derived class is done using the override keyword.
+- An abstract class can contain abstract member like abstract methods, properties, indexers, or events.
+  These members are declared using the abstract keyword and do not have an implementation (a method body) in the abstract class.
    
-     ##example
+     ### Example
           public abstract class Vehicle
           {
             public abstract void StartEngine(); // Abstract method - no body
@@ -17,7 +17,9 @@
            }
 
 ### example of abstract calss
-'''c#
+
+``` C#
+
 
  public abstract class employee
 {
@@ -43,3 +45,6 @@ public class output
        e.name();
     }
 }
+```
+ 
+

@@ -1,12 +1,13 @@
 ### CLASS
--class is a blueprint of object.it means calss can contains Constructors,method , properties and fields.
--The default access modifier of a class is internal.
+- Class is a blueprint of object.it means calss can contains Constructors,method , properties and fields.
+- The default access modifier of a class is internal.
+
 ### Nested classes (classes declared inside another class):
--The default access modifier is private.
+- The default access modifier is private.
 
 ### Object
--it is an instance of a class.
--
+- It is an instance of a class.
+
 
 
 ### example of class

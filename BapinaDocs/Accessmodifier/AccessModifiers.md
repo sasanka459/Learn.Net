@@ -53,8 +53,45 @@ public class cars
     }
 }
 ```
-3-protected--Accessible from within the same class where it's declared AND from derived classes (classes that inherit from it).
+
+
+### Protected
+
+- Accessible from within the same class where it's declared AND from derived classes (classes that inherit from it).
     
+``` C#
+public class employee
+{
+    protected string employeetype;
+    public employee()
+    {
+        employeetype="parmanent";
+    }
+    protected void empname()
+    {
+        Console.WriteLine("empname is gati");
+    }
+}
+public class employee1:employee
+{
+    public employee1()
+    {
+        Console.WriteLine($"employee type is: {employeetype}");
+        empname();
+    }
+}
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        employee e=new employee();
+        e.employeetype;
+        e.empname;
+    }
+}
+
+
+```
 
 4-internal--Accessible from anywhere within the same assembly (e.g., the same project or .dll file). Not accessible from other assemblies.
 

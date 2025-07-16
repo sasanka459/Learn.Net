@@ -1,15 +1,16 @@
 ## forloop
--it run through the items until the execution condition is true.
--when you run forloop 1st it goes to initialization then  condition then Increment or Decrement.
+- It run through the items until the execution condition is true.
+- When you run forloop 1st it goes to initialization then  condition then Increment or Decrement.
 
--for (initialization; condition; iterator)
-{
+- For (initialization; condition; iterator)
+  {
     // Code to be executed repeatedly
-}
+  }
 
 ### example of forloop
 
 ```C#
+
 public class Reverse
 {
     public static void Main(string[] args)
@@ -24,3 +25,5 @@ public class Reverse
         Console.WriteLine("Reverse string is : "+rev);
     }
 }
+
+```
