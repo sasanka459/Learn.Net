@@ -1,6 +1,6 @@
 # Loops
 - Loops are used to execute a block of code  for multiple iterations.
-- loops help us to execute a cotde which neads to be executed multiple times .
+- loops help us to execute a code which neads to be executed multiple times .
 - there are 4 types of loops used in a coding scenario
 ### TYPES OF LOOPS 
 
