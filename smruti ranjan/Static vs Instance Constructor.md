@@ -10,12 +10,12 @@
 
 
 ``` C#
-class new
+class new a
 {
     public string name;
     public int age;
 
-    public new()
+    public new a()
     {
         name = "tanisha" 
         age = 51;
@@ -60,7 +60,7 @@ public class Sample
        Value = 42; // Initialize static field
     }
 
-    // Regular constructor
+    
     public Sample()
     {
         Console.WriteLine("Instance constructor called.");
