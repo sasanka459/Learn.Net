@@ -41,8 +41,7 @@ OUTPUT:
 <details><summary> Static Constructor   </summary>
 
 * A special constructor that initializes static data or performs actions that need to be done only once.
-*  It’s automatically called by the runtime, before the first use of the class or any static members.
- * We cant call it manually.
+*  It’s automatically called by the runtime, We cant call it manually.
  * no access modifiers can be used.
  * no parameters can be passed to it.
  
